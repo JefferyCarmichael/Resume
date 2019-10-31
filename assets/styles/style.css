@@ -45,7 +45,7 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.781);
-  color: black;
+  color: #323335;
 }
 
 .btn {
@@ -57,7 +57,7 @@ nav a {
   box-shadow: inset 0 0 15px 1px rgba(4, 78, 139, 0.507), 1px 1px 2px 1px rgba(0, 4, 7, 0.507);
   border: 1px solid rgba(6, 136, 243, 0.513);
   border-radius: 3%;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* ============================================================== */
@@ -72,6 +72,7 @@ nav a {
 }
 
 #name {
+  font-size: 1.4rem;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.4);
 }
 
@@ -80,9 +81,12 @@ nav a {
 }
 
 #about,
-#volunteer,
 #education {
   padding-bottom: 10px;
+}
+
+#volunteer {
+  padding-bottom: 60px;
 }
 
 .education {
@@ -94,7 +98,8 @@ nav a {
   margin: 0px 0 4px 0;
 }
 
-.degree, .school {
+.degree,
+.school {
   display: inline-block;
 }
 
@@ -110,7 +115,7 @@ nav a {
 }
 
 .skills {
-  font-size: .95rem;
+  font-size: 1.15rem;
   width: 20%;
   list-style: none;
   float: left;
@@ -148,7 +153,8 @@ clearfix::after {
   margin-bottom: 40px;
 }
 
-#info, #infoProjects {
+#info,
+#infoProjects {
   text-align: center;
 }
 
@@ -160,7 +166,6 @@ clearfix::after {
 
 .company {
   width: 80%;
-  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
 }
 
 .job {
@@ -183,7 +188,6 @@ clearfix::after {
 .school {
   margin-bottom: 4px;
   margin-top: 4px;
-  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
 }
 
 /* ============================================================== */
