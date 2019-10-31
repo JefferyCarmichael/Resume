@@ -4,22 +4,22 @@
 #EDF2F4 - blue/white
 #EF233C - red
 */
+
 /* border box fix */
 html {
   box-sizing: border-box;
   /* font-family: "Roboto", sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
+
   scroll-behavior: smooth;
   max-width: 1200px;
   font-size: 1.8vw;
 }
-
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-
 /* ============================================================== */
 /* NAV section */
 section,
@@ -61,6 +61,7 @@ nav a {
 }
 
 /* ============================================================== */
+
 /* About */
 #name,
 #email,
@@ -108,7 +109,6 @@ nav a {
   overflow: auto;
   padding-left: 5%;
 }
-
 .skills {
   font-size: .95rem;
   width: 20%;
@@ -117,12 +117,12 @@ nav a {
   padding-left: 4%;
 }
 
-.project {
+.project{
   margin: 0;
   list-style-type: square;
-}
-.project a {
-  word-break: break-all;
+    a {
+      word-break: break-all;
+       } 
 }
 
 .pTitle {
@@ -143,6 +143,7 @@ clearfix::after {
 
 /* ============================================================== */
 /* Work */
+
 #work {
   clear: both;
   margin-bottom: 40px;
@@ -173,27 +174,27 @@ clearfix::after {
   margin-top: 4px;
   margin-bottom: 4px;
   list-style-type: square;
-}
-.jobDetails li {
-  margin-bottom: 4px;
+  li{
+    margin-bottom: 4px;
+  }
 }
 
 /* ============================================================== */
 /*Education  */
 .school {
   margin-bottom: 4px;
-  margin-top: 4px;
+  margin-top:4px;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
 }
 
 /* ============================================================== */
 /*Footer */
-footer {
-  padding-left: 7%;
-  padding-right: 7%;
+footer{
+padding-left: 7%;
+padding-right: 7%;
 }
 
-.contact-info a {
+.contact-info a{
   display: inline-block;
   padding: 10px 10px;
   text-decoration: none;
@@ -201,6 +202,7 @@ footer {
   font-weight: 700;
   text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
   color: black;
+
 }
 
 @media screen and (max-width: 895px) {
@@ -208,14 +210,12 @@ footer {
     padding: 10px 10px;
   }
 }
+
 @media screen and (min-width: 910px) {
   html {
     font-size: 17px;
   }
-
   #about1 {
     height: 80px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
