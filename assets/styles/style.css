@@ -1,16 +1,10 @@
-/* Color Palette
-#2B2D42 - dark blue
-#8D99AE - light blue
-#EDF2F4 - blue/white
-#EF233C - red
-*/
 /* border box fix */
 html {
   box-sizing: border-box;
   /* font-family: "Roboto", sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
-  max-width: 1200px;
+  max-width: 1100px;
   font-size: 1.8vw;
 }
 
